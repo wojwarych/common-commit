@@ -9,6 +9,8 @@ packages = [{include = "common_commit"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 conventional-commit = "^0.4.2"
+fastapi = "^0.100.1"
+uvicorn = {extras = ["standard"], version = "^0.23.1"}
 
 
 [build-system]
