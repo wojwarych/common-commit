@@ -1,3 +1,9 @@
+## 0.3.1 (2023-07-28)
+
+### Fix
+
+- **web**: Fixed typo in root endpoint (#7)
+
 ## 0.3.0 (2023-07-28)
 
 ### Feat
