@@ -1,6 +1,9 @@
-def hello():
-    return "Hello from conventional commit!"
+from fastapi import FastAPI
 
 
-if __name__ == "__main__":
-    hello()
+app = FastAPI()
+
+
+@app.get("/")
+def get_root():
+    return {"Hello": "world!"}
