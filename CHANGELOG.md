@@ -1,3 +1,9 @@
+## 0.4.0 (2023-08-02)
+
+### Feat
+
+- **web**: change data returned in foo post endpoint (#8)
+
 ## 0.3.1 (2023-07-28)
 
 ### Fix
