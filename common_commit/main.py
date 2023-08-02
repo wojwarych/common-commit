@@ -11,3 +11,8 @@ def get_root():
 @app.get("/me")
 def get_user():
     return {"name": "Joe", "surname": "Doe"}}
+
+
+@app.post("/foo", status_code=201)
+def create_foo():
+    return "Okay"
