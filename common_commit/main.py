@@ -15,4 +15,4 @@ def get_user():
 
 @app.post("/foo", status_code=201)
 def create_foo():
-    return "OK"
+    return "Okay"
