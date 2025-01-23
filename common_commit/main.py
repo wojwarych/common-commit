@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def get_root():
-    return {"Hello": "World!"}
+    return {"Hello": "Wojtek!"}
 
 @app.get("/me")
 def get_user():
