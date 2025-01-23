@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "common-commit"
-version = "0.4.0"
+version = "0.5.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
@@ -9,13 +9,11 @@ packages = [{include = "common_commit"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 conventional-commit = "^0.4.2"
-fastapi = "^0.100.1"
-uvicorn = {extras = ["standard"], version = "^0.23.1"}
 commitizen = "^3.5.3"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.4.0"
+version = "0.5.0"
 version_files = ["pyproject.toml:version"]
 update_changelog_on_bump = true
 
